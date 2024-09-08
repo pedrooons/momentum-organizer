@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- =================================================================================== -->
+  <!--        Home Page   -->
+  <!-- =================================================================================== -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Vendor</title>
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
+  </head>
+
+  <body>
+    <!-- ===================== -->
+    <!--   Prodetails Section    -->
+    <!-- ===================== -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="spro img/6/pl (1).jpeg" width="100%" id="MainImg" alt="" />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="spro img/6/pl (1).jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/6/pl (2).jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/6/pl (3).jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Vendor HandCraft / Seserahan</h6>
+
+        <h4>Seraisa</h4>
+        <h6>Mulai Dari</h6>
+        <h2>Rp100.000 - Rp600.000</h2>
+
+        <h4>Harga Seserahan</h4>
+        <span>
+          <p>- Sewa Per Keranjang Rp100.000 - Rp145.000</p>
+          <p>- Ring Box Rustic Rp100.000</p>
+          <p>- Natural Charm Jewelery Set (Tema Flower/Roustic) Rp150.000</p>
+          <p>- 1 Set Paket Box Seserahan Series White Package Rp500.000</p>
+          <p>- 1 Set Paket Keranjang Rotan Rp600.000</p>
+        </span>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--   Newsletter    -->
+    <!-- ===================== -->
+
+    <!-- ===================== -->
+    <!-----       Footer -------->
+    <!-- ===================== -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="" alt="" class="logo" />
+        <h4>Contact</h4>
+
+        <p><strong>Phone:</strong> +62 812-5740-2577</p>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2024, Design By @pedrooons</p>
+      </div>
+    </footer>
+
+    <!-- ===================== -->
+    <!-----     Replacing images  -------->
+    <!-- ===================== -->
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+    <!-- ============================================================================================================ -->
+    <script src="script.js"></script>
+  </body>
+</html>

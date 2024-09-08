@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- =================================================================================== -->
+  <!--        Home Page   -->
+  <!-- =================================================================================== -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Paket</title>
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
+  </head>
+
+  <body>
+    <!-- ===================== -->
+    <!--   Prodetails Section    -->
+    <!-- ===================== -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="spro img/3/1.jpg" width="100%" id="MainImg" alt="" />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="spro img/3/1.jpg" width="100%" class="small-img" alt="" />
+          </div>
+          <div class="small-img-col">
+            <img src="spro img/3/2.jpg" width="100%" class="small-img" alt="" />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/3/New folder/11.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/3/New folder/14.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6></h6>
+        <h4>Wedding Service Only</h4>
+        <h2>Rp8.000.000</h2>
+
+        <h4>Include</h4>
+        <span>
+          <p>- Crew (7- 8 Orang)</p>
+          <p>
+            - Free Konsultasi 3x Pertemuan (2x Bersama CATIN, 1x Bersama
+            Keluarga)
+          </p>
+          <p>- Pembuatan Rundown Acara</p>
+          <p>- Technical Meeting</p>
+          <p>- Balon Helium (10 Buah)</p>
+          <p>- Confetti (3 Buah)</p>
+          <h6>Note: Harga Diluar Akomodasi Jika Diluar (Kasongan)</h6>
+        </span>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--   Newsletter    -->
+    <!-- ===================== -->
+
+    <!-- ===================== -->
+    <!-----       Footer -------->
+    <!-- ===================== -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="" alt="" class="logo" />
+        <h4>Contact</h4>
+
+        <p><strong>Phone:</strong> +62 812-5740-2577</p>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2024, Design By @pedrooons</p>
+      </div>
+    </footer>
+
+    <!-- ===================== -->
+    <!-----     Replacing images  -------->
+    <!-- ===================== -->
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+    <!-- ============================================================================================================ -->
+    <script src="script.js"></script>
+  </body>
+</html>

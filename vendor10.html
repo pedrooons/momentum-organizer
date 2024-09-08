@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- =================================================================================== -->
+  <!--        Home Page   -->
+  <!-- =================================================================================== -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Vendor</title>
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
+  </head>
+
+  <body>
+    <!-- ===================== -->
+    <!--   Prodetails Section    -->
+    <!-- ===================== -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img
+          src="spro img/10/panjawan (1).png"
+          width="100%"
+          id="MainImg"
+          alt=""
+        />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="spro img/10/panjawan (2).png"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/10/panjawan (3).png"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/10/panjawan (4).png"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Vendor Sanggar</h6>
+
+        <h4>Panjawan Tiung</h4>
+
+        <h2>Rp3.000.000 - Rp7.500.000</h2>
+
+        <h4>Harga Paket</h4>
+        <span>
+          <h6>Paket Bahandang Rp7.500.000</h6>
+          <p>- Resepsi adat (2hari) + Free Penjor 1</p>
+          <p>- Tari penyambutan/pemenuhan hukum adat (6 Orang)</p>
+          <p>- Tari penampilan/resepsi (6 Orang)</p>
+          <p>- Gerbang sekepeng</p>
+          <p>- Crew (1 Orang)</p>
+          <h6>Paket Baputi Rp6.500.000</h6>
+          <p>- Resepsi adat 1 Hari</p>
+          <p>- Tari penyambutan/resepsi(5 Orang)</p>
+          <p>- Tari penampilan/resepsi(5 Orang)</p>
+          <p>- Pemain sekepeng (2 Orang)</p>
+          <p>- Gerbang</p>
+          <p>- Crew (1 Orang)</p>
+          <h6>Paket Babilem Rp5.000.000</h6>
+          <p>- Resepsi adat 1 Hari</p>
+          <p>- Tari penyambutan/resepsi(5 - 6 Orang)</p>
+          <p>- Tari penampilan/resepsi(5 Orang)</p>
+          <p>- Gerbang</p>
+          <p>- Crew (1 Orang)</p>
+          <h6>Paket Bahijau Rp4.000.000</h6>
+          <p>- Tari adat/pemenuhan (4 Orang)</p>
+          <p>- Pemusik (4 Orang)</p>
+          <p>- Crew (1 Orang)</p>
+          <h6>Paket Bahenda Rp3.000.000</h6>
+          <p>- Gerbang</p>
+          <p>- Pemain sekepeng (2 orang)</p>
+          <p>- Pemusik (3 orang)</p>
+
+          <h6>Note: harga hanya berlaku di kasongan</h6>
+        </span>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--   Newsletter    -->
+    <!-- ===================== -->
+
+    <!-- ===================== -->
+    <!-----       Footer -------->
+    <!-- ===================== -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="" alt="" class="logo" />
+        <h4>Contact</h4>
+
+        <p><strong>Phone:</strong> +62 812-5740-2577</p>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2024, Design By @pedrooons</p>
+      </div>
+    </footer>
+
+    <!-- ===================== -->
+    <!-----     Replacing images  -------->
+    <!-- ===================== -->
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+    <!-- ============================================================================================================ -->
+    <script src="script.js"></script>
+  </body>
+</html>

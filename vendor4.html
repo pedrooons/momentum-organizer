@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- =================================================================================== -->
+  <!--        Home Page   -->
+  <!-- =================================================================================== -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deskripsi Vendor</title>
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  -->
+  </head>
+
+  <body>
+    <!-- ===================== -->
+    <!--   Prodetails Section    -->
+    <!-- ===================== -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="spro img/11/rj (1).jpeg" width="100%" id="MainImg" alt="" />
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="spro img/11/rj (2).jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/11/rj (3).jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="spro img/11/rj (4).jpeg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Vendor Blower</h6>
+
+        <h4>RJ Blower</h4>
+
+        <h2>Rp300.000/Unit</h2>
+
+        <h4>Include</h4>
+        <span>
+          <p>- Terminal 10 Meter / Unit</p>
+          <h6>Note: Hari Selama Proses Pernikahan</h6>
+        </span>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!--   Newsletter    -->
+    <!-- ===================== -->
+
+    <!-- ===================== -->
+    <!-----       Footer -------->
+    <!-- ===================== -->
+    <footer class="section-p1">
+      <div class="col">
+        <img src="" alt="" class="logo" />
+        <h4>Contact</h4>
+
+        <p><strong>Phone:</strong> +62 812-5740-2577</p>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2024, Design By @pedrooons</p>
+      </div>
+    </footer>
+
+    <!-- ===================== -->
+    <!-----     Replacing images  -------->
+    <!-- ===================== -->
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+    <!-- ============================================================================================================ -->
+    <script src="script.js"></script>
+  </body>
+</html>
